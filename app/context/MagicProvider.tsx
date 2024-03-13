@@ -31,8 +31,8 @@ const MagicProvider = ({ children }: { children: ReactNode }) => {
     if (process.env.NEXT_PUBLIC_MAGIC_API_KEY) {
       const magic = new Magic(process.env.NEXT_PUBLIC_MAGIC_API_KEY || "", {
         network: {
-          rpcUrl: "https://rpc2.sepolia.org",
-          chainId: 11155111,
+          rpcUrl: "https://data-seed-prebsc-1-s1.binance.org:8545",
+          chainId: 97,
         },
       })
 

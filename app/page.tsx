@@ -1,3 +1,4 @@
+'use client';
 import ShowUIButton from '@/app/components/ShowUIButton';
 import ConnectButton from '@/app/components/ConnectButton';
 
